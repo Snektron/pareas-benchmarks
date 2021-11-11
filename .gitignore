@@ -1,0 +1,3 @@
+scripts/__pycache__
+subprojects/*
+!subprojects/pareas.wrap

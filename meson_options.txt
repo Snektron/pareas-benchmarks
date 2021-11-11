@@ -1,0 +1,1 @@
+option('benchmark-device', type: 'string', value: '', description: 'Select the device that is used for gathering benchmark results')
