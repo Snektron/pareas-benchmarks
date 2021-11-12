@@ -60,7 +60,6 @@ def run(data_set):
         result = subprocess.run(common_args + [data_set], capture_output=True)
         if len(result.stderr) != 0:
             print(f'Experiment returned stderr: {result.stderr.decode()}')
-            return None
 
         return ProfileData(result.stdout.decode())
     except subprocess.CalledProcessError as e:
