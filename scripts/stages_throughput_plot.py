@@ -24,10 +24,10 @@ FRONTEND_STAGES = {
     'frontend.compile.build parse tree': 'Building parse tree',
     'frontend.compile.syntax': 'Restructuring',
     'frontend.compile.sema': 'Semantic Analysis',
+    'backend.translate ast': 'Translate AST',
 }
 
 BACKEND_STAGES = {
-    'backend.translate ast': 'Translate AST',
     'backend.preprocessing': 'Preprocessing',
     'backend.instruction count': 'Instr. Count',
     'backend.instruction gen': 'Instr. Gen',
