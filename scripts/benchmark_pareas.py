@@ -103,6 +103,3 @@ if 'PAREAS_BENCH_DEVICE' in os.environ:
 
 with open(os.path.join(result_dir, 'results.json'), 'w') as f:
     json.dump(results, f, indent=4)
-
-total_throughput_plot.make(os.path.join(result_dir, 'total_throughput.tex'), profile_data)
-stages_throughput_plot.make(os.path.join(result_dir, 'stages_throughput.tex'), profile_data)
