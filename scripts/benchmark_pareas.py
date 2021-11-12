@@ -6,8 +6,6 @@ import socket
 import subprocess
 import multiprocessing
 import json
-import total_throughput_plot
-import stages_throughput_plot
 from profiler import ProfileData
 
 p = argparse.ArgumentParser(description='Pareas benchmark runner')
