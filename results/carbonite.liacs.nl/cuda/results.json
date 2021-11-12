@@ -1,0 +1,16 @@
+{
+    "machine": "carbonite.liacs.nl",
+    "cores": 48,
+    "threads": 1,
+    "results": {
+        "1.par": "1.par.txt",
+        "2.par": "2.par.txt",
+        "3.par": "3.par.txt",
+        "4.par": "4.par.txt",
+        "5.par": "5.par.txt",
+        "6.par": "6.par.txt",
+        "7.par": "7.par.txt"
+    },
+    "futhark backend": "cuda",
+    "bench device": "#1"
+}
