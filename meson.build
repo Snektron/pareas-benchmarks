@@ -19,7 +19,7 @@ pareas_test_sources = [
     files('testdata/4.par'),
     files('testdata/5.par'),
     files('testdata/6.par'),
-    # files('testdata/7.par'),
+    files('testdata/7.par'),
 ]
 
 pareas_runner = find_program('scripts/benchmark_pareas.py')
